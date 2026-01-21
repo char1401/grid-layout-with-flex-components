@@ -42,4 +42,18 @@ body {
   display: grid;
 }
 
+.emoji {
+    display: flex;
+    flex-direction: column;
+}
 
+.icon {
+    order: -1;
+    display: flex;
+    justify-content: center;
+}
+
+.emoji a{
+    justify-content: flex-start;
+    margin-top: auto;
+}
